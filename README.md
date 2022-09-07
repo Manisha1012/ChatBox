@@ -4,6 +4,6 @@ Typing -
 
 ![alt text](https://github.com/Manisha1012/chatbox.github.io/blob/master/01-typing.png)
 
-Replying - 
+Replied - 
 
 ![alt text](https://github.com/Manisha1012/chatbox.github.io/blob/master/02-reply.png)
