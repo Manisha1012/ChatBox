@@ -6,4 +6,4 @@ Typing -
 
 Replied - 
 
-![alt text](https://github.com/Manisha1012/chatbox.github.io/blob/master/02-reply.png)
+![alt text](https://github.com/Manisha1012/chatbox.github.io/blob/master/02-replied.png)
