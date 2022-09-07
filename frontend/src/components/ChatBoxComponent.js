@@ -55,7 +55,7 @@ function ChatBoxComponent(){
             console.log(messageList);
             break;
           case "delmessage":
-            let msgLi = messageList.filter((_, ind) => ind !== dataFromServer.mid);
+            let msgLi = messageList.filter((val, ind) => ind !== dataFromServer.mid);
             setMessageList(msgLi);
             break;
           default:
@@ -112,7 +112,7 @@ function ChatBoxComponent(){
     }
 
     const removeMessage = (index) => {      
-      let msgLi = messageList.filter((_, ind) => ind !== index);
+      let msgLi = messageList.filter((val, ind) => ind !== index);
       setMessageList(msgLi);
       client.send(JSON.stringify({
           type: "delmessage",
@@ -121,7 +121,7 @@ function ChatBoxComponent(){
     }
 
     const editMessage = (index) => {      
-      let msgToBeEdited = messageList.filter((_, ind) => ind == index);
+      let msgToBeEdited = messageList.filter((val, ind) => ind == index);
       setMessage(msgToBeEdited[0].mes);   
       setEditMsgId(index);   
     }
