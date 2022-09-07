@@ -1,4 +1,4 @@
-ChatBox app is just a simple react app without database connection to learn the websocket.
+ChatBox is just a simple react web app without database connection to learn the websocket.
 
 Typing -
 
